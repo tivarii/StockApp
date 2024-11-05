@@ -1,8 +1,65 @@
-# React + Vite
+Stock App
+A stock tracking application built with Next.js that fetches and displays real-time stock prices using an external API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Table of Contents
+Demo
+Features
+Installation
+Usage
+Configuration
+Built With
+Contributing
+License
+Demo
 
-Currently, two official plugins are available:
+Access a live demo here.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Real-time Stock Prices: Fetches and displays real-time stock prices.
+Responsive Design: Works seamlessly on all devices.
+Fast and Efficient: Built with Vite and Next.js for optimized performance.
+Fast Refresh: Includes hot module replacement (HMR) for faster development.
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/stock-app.git
+cd stock-app
+Install dependencies:
+
+bash
+Copy code
+npm install
+Set up environment variables:
+
+Create a .env.local file in the root of the project.
+Add your API key and any other required configuration.
+env
+Copy code
+NEXT_PUBLIC_STOCK_API_KEY=your_api_key
+Start the application:
+
+bash
+Copy code
+npm run dev
+Usage
+Navigate to http://localhost:3000 in your browser.
+Use the app to search for stocks by their ticker symbol and view the latest prices.
+Configuration
+API: The app fetches stock prices from an external API. Make sure to set your API key in .env.local.
+Environment Variables: Other configurations such as NEXT_PUBLIC_API_BASE_URL can also be configured as needed.
+Built With
+Next.js - A React framework for production
+Vite - For fast development
+React - A JavaScript library for building user interfaces
+Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the project.
+Create your feature branch (git checkout -b feature/AmazingFeature).
+Commit your changes (git commit -m 'Add AmazingFeature').
+Push to the branch (git push origin feature/AmazingFeature).
+Open a pull request.
+License
+Distributed under the MIT License. See LICENSE for more information.
