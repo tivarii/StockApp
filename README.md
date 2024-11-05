@@ -19,7 +19,7 @@ A stock tracking application built with **Next.js** that fetches and displays re
 
 ## 🎥 Demo
 
-🔗 **Live Demo**: [Access here](https://your-live-demo-link.com)
+🔗 **Live Demo**: [Access here]https://stock-app-navy.vercel.app/
 
 ---
 
